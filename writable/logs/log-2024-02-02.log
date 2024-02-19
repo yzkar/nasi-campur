@@ -1,0 +1,88 @@
+CRITICAL - 2024-02-02 06:12:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/post_layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/post_layout.php')
+ 2 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layout/post_layout', [], true)
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('news', [], true)
+ 4 APPPATH\Controllers\news.php(7): view('news')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-ti\\public\\index.php')
+CRITICAL - 2024-02-02 06:13:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/post_layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/post_layout.php')
+ 2 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layout/post_layout', [], true)
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('news', [], true)
+ 4 APPPATH\Controllers\news.php(7): view('news')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-ti\\public\\index.php')
+CRITICAL - 2024-02-02 06:14:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/post_layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/post_layout.php')
+ 2 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layout/post_layout', [], true)
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('news', [], true)
+ 4 APPPATH\Controllers\news.php(7): view('news')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-ti\\public\\index.php')
+CRITICAL - 2024-02-02 06:14:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/post_layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/post_layout.php')
+ 2 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layout/post_layout', [], true)
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('news', [], true)
+ 4 APPPATH\Controllers\news.php(7): view('news')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-ti\\public\\index.php')
+CRITICAL - 2024-02-02 06:16:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/post_layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/post_layout.php')
+ 2 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layout/post_layout', [], true)
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('news', [], true)
+ 4 APPPATH\Controllers\news.php(7): view('news')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-ti\\public\\index.php')
+CRITICAL - 2024-02-02 06:16:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/post_layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/post_layout.php')
+ 2 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layout/post_layout', [], true)
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('news', [], true)
+ 4 APPPATH\Controllers\news.php(7): view('news')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-ti\\public\\index.php')
+CRITICAL - 2024-02-02 06:16:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/post_layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/post_layout.php')
+ 2 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layout/post_layout', [], true)
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('news', [], true)
+ 4 APPPATH\Controllers\news.php(7): view('news')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-ti\\public\\index.php')
+CRITICAL - 2024-02-02 06:17:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/post_layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/post_layout.php')
+ 2 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layout/post_layout', [], true)
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('news', [], true)
+ 4 APPPATH\Controllers\news.php(7): view('news')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-ti\\public\\index.php')

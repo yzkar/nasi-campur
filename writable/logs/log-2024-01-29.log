@@ -1,0 +1,24 @@
+CRITICAL - 2024-01-29 03:28:12 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\komik\detail.php on line 7.
+ 1 APPPATH\Views\komik\detail.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web-ti\\app\\Views\\komik\\detail.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\web-ti\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/detail', [], true)
+ 5 APPPATH\Controllers\komik.php(36): view('komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\komik->detail('naruto.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-ti\\public\\index.php')
+CRITICAL - 2024-01-29 03:46:44 --> ErrorException: Undefined array key "penulis"
+in APPPATH\Views\komik\detail.php on line 16.
+ 1 APPPATH\Views\komik\detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "penulis"', 'C:\\xampp\\htdocs\\web-ti\\app\\Views\\komik\\detail.php', 16)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\web-ti\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('komik/detail', [], true)
+ 5 APPPATH\Controllers\komik.php(36): view('komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\komik->detail('naruto')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web-ti\\public\\index.php')
