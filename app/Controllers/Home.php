@@ -9,8 +9,8 @@ class Home extends BaseController
         return view('welcome_message');
     }
 
-    public function coba()
-    {
-        echo $this->name;
-    }
+    // public function coba()
+    // {
+    //     echo $this->name;
+    // }
 }
