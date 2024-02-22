@@ -48,6 +48,7 @@ class letterAdmin extends BaseController
                 "content" => $this->request->getPost('content'),
                 "tanggal" => $this->request->getPost('tanggal'),
                 "pengirim" => $this->request->getPost('pengirim'),
+                "nip" => $this->request->getPost('nip'),
                 "status" => $this->request->getPost('status'),
                 "slug" => url_title($this->request->getPost('title'), '-', TRUE)
             ]);
@@ -84,6 +85,7 @@ class letterAdmin extends BaseController
                 "content" => $this->request->getPost('content'),
                 "tanggal" => $this->request->getPost('tanggal'),
                 "pengirim" => $this->request->getPost('pengirim'),
+                "nip" => $this->request->getPost('nip'),
                 "status" => $this->request->getPost('status')
             ]);
             return redirect('admin/letter');

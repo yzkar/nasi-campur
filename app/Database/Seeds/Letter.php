@@ -19,7 +19,8 @@ class letter extends Seeder
                 'lampiran' => 'Selamat datang di Codeigntier',
                 'content' => 'Pengenalan Codeigniter untuk Pemula',
                 'tanggal' => 'Selamat datang di Codeigntier',
-                'pengirim' => 'Selamat datang di Codeigntier.'
+                'pengirim' => 'Selamat datang di Codeigntier',
+                'nip' => 'Selamat datang di Codeigntier.'
             ]
 
         ];

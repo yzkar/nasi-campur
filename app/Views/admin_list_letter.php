@@ -3,34 +3,36 @@
 <?= $this->section('content') ?>
 
 <table class="table">
-<thead>
-<tr>
-    <th>#</th>
-    <th>Title</th>
-    <th>Status</th>
-    <th>Action</th>
-</tr>
-</thead>
-<tbody>
-<?php foreach($letteres as $letter): ?>
-<tr>
-    <td><?= $letter['id'] ?></td>
-    
-    <td>
-        <?php if($letter['status'] === 'published'): ?>
-        <small class="text-success"><?= $letter['status'] ?></small>
-        <?php else: ?>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Title</th>
+      <th>Status</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <?php foreach ($letteres as $letter) : ?>
+      <tr>
+        <td><?= $letter['id'] ?></td>
+        <td>
+          <strong><?= $letter['title'] ?></strong><br>
+        <td>
+          <?php if ($letter['status'] === 'published') : ?>
+            <small class="text-success"><?= $letter['status'] ?></small>
+        </td>
+      <?php else : ?>
         <small class="text-muted"><?= $letter['status'] ?></small>
-        <?php endif ?>
-    </td>
-    <td>
-        <a href="<?= base_url('admin/letter/'.$letter['id'].'/preview') ?>" class="btn btn-sm btn-outline-secondary" target="_blank">Preview</a>
-        <a href="<?= base_url('admin/letter/'.$letter['id'].'/edit') ?>" class="btn btn-sm btn-outline-secondary">Edit</a>
-        <a href="#" data-href="<?= base_url('admin/letter/'.$letter['id'].'/delete') ?>" onclick="confirmToDelete(this)" class="btn btn-sm btn-outline-danger">Delete</a>
-    </td>
-</tr>
-<?php endforeach ?>
-</tbody>
+      <?php endif ?>
+      </td>
+      <td>
+        <a href="<?= base_url('admin/letter/' . $letter['id'] . '/preview') ?>" class="btn btn-sm btn-outline-secondary" target="_blank">preview</a>
+        <a href="<?= base_url('admin/letter/' . $letter['id'] . '/edit') ?>" class="btn btn-sm btn-outline-secondary">Edit</a>
+        <a href="#" data-href="<?= base_url('admin/letter/' . $letter['id'] . '/delete') ?>" onclick="confirmToDelete(this)" class="btn btn-sm btn-outline-danger">Delete</a>
+      </td>
+      </tr>
+    <?php endforeach ?>
+  </tbody>
 </table>
 
 <div id="confirm-dialog" class="modal" tabindex="-1" role="dialog">
@@ -49,10 +51,10 @@
 </div>
 
 <script>
-function confirmToDelete(el){
+  function confirmToDelete(el) {
     $("#delete-button").attr("href", el.dataset.href);
     $("#confirm-dialog").modal('show');
-}
+  }
 </script>
 
 
