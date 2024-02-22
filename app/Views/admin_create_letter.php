@@ -4,19 +4,19 @@
 
 <form action="" method="post" id="text-editor">
     <div class="form-group">
-        <label for="title">Title</label>
+        <label for="title">Kop surat</label>
         <input type="text" name="title" class="form-control" placeholder="letter title" required>
     </div>
     <div class="form-group">
-        <label for="title">Alamat</label>
+        <label for="title">Alamat perusahaan</label>
         <input type="text" name="alamat" class="form-control" placeholder="alamat" required>
     </div>
     <div class="form-group">
-        <label for="title">No</label>
+        <label for="title">No surat</label>
         <input type="text" name="no" class="form-control" placeholder="no" required>
     </div>
     <div class="form-group">
-        <label for="title">Perihal</label>
+        <label for="title">Perihal surat</label>
         <input type="text" name="perihal" class="form-control" placeholder="perihal" required>
     </div>
     <div class="form-group">
@@ -24,16 +24,20 @@
         <input type="text" name="lampiran" class="form-control" placeholder="lampiran" required>
     </div>
     <div class="form-group">
-        <label for="title">Isi</label>
+        <label for="title">Isi surat</label>
         <textarea name="content" class="form-control" cols="30" rows="10" placeholder="isi"></textarea>
     </div>
     <div class="form-group">
-        <label for="title">Tanggal</label>
+        <label for="title">Tanggal surat di buat</label>
         <input type="text" name="tanggal" class="form-control" placeholder="tanggal" required>
     </div>
     <div class="form-group">
-        <label for="title">Pengirim</label>
+        <label for="title">Nama koordinator prodi</label>
         <input type="text" name="pengirim" class="form-control" placeholder="pengirim" required>
+    </div>
+    <div class="form-group">
+        <label for="title">NIP</label>
+        <input type="text" name="nip" class="form-control" placeholder="NIP" required>
     </div>
     <div class="form-group">
         <button type="submit" name="status" value="published" class="btn btn-primary">Publish</button>

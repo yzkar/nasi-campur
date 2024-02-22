@@ -10,5 +10,5 @@ class LetterModel extends Model
     protected $primaryKey = 'id';
 
     protected $useAutoIncrement = true;
-    protected $allowedFields = ['title', 'alamat', 'no', 'perihal', 'lampiran', 'content', 'tanggal', 'pengirim', 'status', 'slug'];
+    protected $allowedFields = ['title', 'alamat', 'no', 'perihal', 'lampiran', 'content', 'tanggal', 'pengirim', 'nip', 'status', 'slug'];
 }

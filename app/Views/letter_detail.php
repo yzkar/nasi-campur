@@ -9,5 +9,7 @@
 <div><?= $letter['content'] ?></div>
 <div><?= $letter['tanggal'] ?></div>
 <div><?= $letter['pengirim'] ?></div>
+<div><?= $letter['nip'] ?></div>
+
 
 <?= $this->endSection() ?>

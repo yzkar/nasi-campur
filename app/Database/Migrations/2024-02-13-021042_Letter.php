@@ -48,6 +48,10 @@ class letter extends Migration
                 'type'           => 'VARCHAR',
                 'constraint'     => 50,
             ],
+            'nip'      => [
+                'type'           => 'VARCHAR',
+                'constraint'     => 50,
+            ],
             'status'      => [
                 'type'           => 'ENUM',
                 'constraint'     => ['published', 'draft'],
