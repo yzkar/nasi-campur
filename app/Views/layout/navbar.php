@@ -13,6 +13,10 @@
                     <a class="nav-link" href="<?= base_url('letter') ?>">letter</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="<?= base_url('surat_rek
+                    omendasi') ?>">surat rekomendasi</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="<?= base_url('about') ?>">About</a>
                 </li>
                 <li class="nav-item">

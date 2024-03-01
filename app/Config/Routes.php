@@ -32,3 +32,12 @@ $routes->group('admin', function ($routes) {
     $routes->add('letter/(:segment)/edit', 'letterAdmin::edit/$1');
     $routes->get('letter/(:segment)/delete', 'letterAdmin::delete/$1');
 });
+$routes->get('/surat_rekomendasi', 'surat_rekomendasi::index');
+$routes->get('/surat_rekomendasi/(:any)', 'surat_rekomendasi::viewsurat_rekomendasi/$1');
+$routes->group('admin', function($routes){
+	$routes->get('surat_rekomendasi', 'surat_rekomendasiAdmin::index');
+	$routes->get('surat_rekomendasi/(:segment)/preview', 'surat_rekomendasiAdmin::preview/$1');
+    $routes->add('surat_rekomendasi/new', 'surat_rekomendasiAdmin::create');
+	$routes->add('surat_rekomendasi/(:segment)/edit', 'surat_rekomendasiAdmin::edit/$1');
+	$routes->get('surat_rekomendasi/(:segment)/delete', 'surat_rekomendasiAdmin::delete/$1');
+});
