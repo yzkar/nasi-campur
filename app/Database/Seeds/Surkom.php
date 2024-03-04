@@ -4,14 +4,14 @@ namespace App\Database\Seeds;
 
 use CodeIgniter\Database\Seeder;
 
-class surat_rekomendasi extends Seeder
+class surkom extends Seeder
 {
     public function run()
     {
         // membuat data
-        $surat_rekomendasi_data = [
+        $surkom_data = [
             [
-                'kop' => 'Selamat datang di Codeigntier',
+                'title' => 'Selamat datang di Codeigntier',
                 'slug'  => 'codeigniter-intro',
                 'no' => 'Selamat datang di Codeigntier',
                 'nama1' => 'Selamat datang di Codeigntier',
@@ -26,15 +26,15 @@ class surat_rekomendasi extends Seeder
                 'semester' => '1306',
                 'ipk' => '1306',
                 'sks' => '1306',
-                'isi' => 'Selamat datang di Codeigntier',
+                'content' => 'Selamat datang di Codeigntier',
                 'tanggal' => 'Selamat datang di Codeigntier',
                 'nama pengirim' => 'Selamat datang di Codeigntier.'
-            ],
+            ]
         ];
 
-        foreach ($surat_rekomendasi_data as $data) {
+        foreach ($surkom_data as $data) {
             // insert semua data ke tabel
-            $this->db->table('surat_rekomendasi')->insert($data);
+            $this->db->table('surkom')->insert($data);
         }
     }
 }

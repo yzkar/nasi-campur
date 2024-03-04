@@ -4,7 +4,7 @@ namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
 
-class surat_rekomendasi extends Migration
+class surkom extends Migration
 {
     public function up()
     {
@@ -72,7 +72,7 @@ class surat_rekomendasi extends Migration
                 'type'           => 'int',
                 'constraint'     => 50,
             ],
-            'isi'      => [
+            'content'      => [
                 'type'           => 'VARCHAR',
                 'constraint'     => 200,
             ],
@@ -95,7 +95,7 @@ class surat_rekomendasi extends Migration
         $this->forge->addKey('id', TRUE);
 
         // Membuat tabel surat rekomendasi
-        $this->forge->createTable('surat_rekomendasi', TRUE);
+        $this->forge->createTable('surkom', TRUE);
     }
 
     //-------------------------------------------------------
@@ -103,6 +103,6 @@ class surat_rekomendasi extends Migration
     public function down()
     {
         // menghapus tabel surat rekomendasi
-        $this->forge->dropTable('surat_rekomendasi');
+        $this->forge->dropTable('surkom');
     }
 }
