@@ -8,7 +8,7 @@ class surkom extends Migration
 {
     public function up()
     {
-        // Membuat kolom/field untuk tabel news
+        // Membuat kolom/field untuk tabel surkom
         $this->forge->addField([
             'id'          => [
                 'type'           => 'INT',
@@ -16,7 +16,7 @@ class surkom extends Migration
                 'unsigned'       => true,
                 'auto_increment' => true
             ],
-            'kop'       => [
+            'title'       => [
                 'type'           => 'VARCHAR',
                 'constraint'     => '255'
             ],
@@ -49,7 +49,7 @@ class surkom extends Migration
                 'constraint'     => 100,
             ],
             'nim'      => [
-                'type'           => 'int',
+                'type'           => 'INT',
                 'constraint'     => 50,
             ],
             'jurusan'      => [
@@ -61,19 +61,19 @@ class surkom extends Migration
                 'constraint'     => 50,
             ],
             'semester'      => [
-                'type'           => 'int',
+                'type'           => 'INT',
                 'constraint'     => 50,
             ],
             'ipk'      => [
-                'type'           => 'int',
+                'type'           => 'INT',
                 'constraint'     => 50,
             ],
             'sks'      => [
-                'type'           => 'int',
+                'type'           => 'INT',
                 'constraint'     => 50,
             ],
             'content'      => [
-                'type'           => 'VARCHAR',
+                'type'           => 'TEXT',
                 'constraint'     => 200,
             ],
             'tanggal'      => [
@@ -94,7 +94,7 @@ class surkom extends Migration
         // Membuat primary key
         $this->forge->addKey('id', TRUE);
 
-        // Membuat tabel surat rekomendasi
+        // Membuat tabel surkom
         $this->forge->createTable('surkom', TRUE);
     }
 
@@ -102,7 +102,7 @@ class surkom extends Migration
 
     public function down()
     {
-        // menghapus tabel surat rekomendasi
+        // menghapus tabel surkom
         $this->forge->dropTable('surkom');
     }
 }

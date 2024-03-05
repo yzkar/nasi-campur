@@ -30,7 +30,7 @@ class surkom extends Seeder
                 'tanggal' => 'Selamat datang di Codeigntier',
                 'nama pengirim' => 'Selamat datang di Codeigntier.'
             ]
-        ];
+        ]; 
 
         foreach ($surkom_data as $data) {
             // insert semua data ke tabel
