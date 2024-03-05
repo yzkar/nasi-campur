@@ -17,7 +17,7 @@
             </ul>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="<?= base_url('admin/surat_rekomendasi') ?>">surat rekomendasi</a>
+                    <a class="nav-link" href="<?= base_url('admin/surkom') ?>">surat rekomendasi</a>
                 </li>
             </ul>
             <ul class="navbar-nav">
@@ -26,6 +26,9 @@
                 </li>
                 <li class="nav-item">
                     <a href="<?= base_url('admin/letter/new') ?>" class="btn btn-primary mr-3">New letter</a>
+                </li>
+                <li class="nav-item">
+                    <a href="<?= base_url('admin/surkom/new') ?>" class="btn btn-primary mr-3">New surat rekomendasi</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="<?= base_url('admin/setting') ?>">Setting</a>
