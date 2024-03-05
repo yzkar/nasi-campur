@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 CRITICAL - 2024-03-04 03:05:46 --> Error: Class "App\Models\surat_rekomendasiModel" not found
 in APPPATH\Controllers\surat_rekomendasi.php on line 13.
  1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\surat_rekomendasi->index()
@@ -40,3 +41,18 @@ in APPPATH\Controllers\surkomAdmin.php on line 12.
  3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
  5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\nasi-campur\\public\\index.php')
+=======
+ERROR - 2024-03-04 04:02:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`pengirim`) VALUES ('Selamat datang di Codeigntier', 'codeigniter-intro', 'Se...' at line 1 in C:\xampp\htdocs\nasi-campur\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\nasi-campur\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `su...', 0)
+#1 C:\xampp\htdocs\nasi-campur\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 C:\xampp\htdocs\nasi-campur\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 C:\xampp\htdocs\nasi-campur\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 C:\xampp\htdocs\nasi-campur\app\Database\Seeds\Surkom.php(37): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\nasi-campur\system\Database\Seeder.php(145): App\Database\Seeds\surkom->run()
+#6 C:\xampp\htdocs\nasi-campur\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\xampp\htdocs\nasi-campur\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 C:\xampp\htdocs\nasi-campur\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 C:\xampp\htdocs\nasi-campur\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+>>>>>>> f08e483ca902581abdf572b2939fd0532bfa6860
