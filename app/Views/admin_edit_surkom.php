@@ -70,7 +70,7 @@
     </div>
     <div class="form-group">
         <label for="title">Nama yang bertanda tangan</label>
-        <input type="text" name="nama pengirim" class="form-control" placeholder="nama pengirim" value="<?= $surkom['nama pengirim'] ?>" required>
+        <input type="text" name="nama_pengirim" class="form-control" placeholder="nama pengirim" value="<?= $surkom['nama_pengirim'] ?>" required>
     </div>
     <div class="form-group">
         <button type="submit" name="status" value="published" class="btn btn-primary">Publish</button>

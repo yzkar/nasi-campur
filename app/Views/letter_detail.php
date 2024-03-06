@@ -6,6 +6,7 @@
 </div>
 <div align="center"><?= $letter['alamat'] ?></div>
 <div>
+    <hr color="black", size="5px">
     <p></p><br>
     <h>No : </h><?= $letter['no'] ?>
 </div>

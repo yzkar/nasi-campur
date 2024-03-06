@@ -80,7 +80,7 @@ class surkom extends Migration
                 'type'           => 'VARCHAR',
                 'constraint'     => 50,
             ],
-            'nama pengirim'      => [
+            'nama_pengirim'      => [
                 'type'           => 'VARCHAR',
                 'constraint'     => 50,
             ],

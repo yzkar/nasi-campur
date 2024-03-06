@@ -28,7 +28,7 @@ class surkom extends Seeder
                 'sks' => '1306',
                 'content' => 'Selamat datang di Codeigntier',
                 'tanggal' => 'Selamat datang di Codeigntier',
-                'nama pengirim' => 'Selamat datang di Codeigntier.'
+                'nama_pengirim' => 'Selamat datang di Codeigntier.'
             ]
         ]; 
 

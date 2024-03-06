@@ -56,7 +56,7 @@ class surkomAdmin extends BaseController
                 "sks" => $this->request->getPost('sks'),
                 "content" => $this->request->getPost('content'),
                 "tanggal" => $this->request->getPost('tanggal'),
-                "nama pengirim" => $this->request->getPost('nama pengirim'),
+                "nama_pengirim" => $this->request->getPost('nama_pengirim'),
                 "status" => $this->request->getPost('status'),
                 "slug" => url_title($this->request->getPost('title'), '-', TRUE)
             ]);
@@ -101,7 +101,7 @@ class surkomAdmin extends BaseController
                 "sks" => $this->request->getPost('sks'),
                 "content" => $this->request->getPost('content'),
                 "tanggal" => $this->request->getPost('tanggal'),
-                "nama pengirim" => $this->request->getPost('nama pengirim'),
+                "nama_pengirim" => $this->request->getPost('nama_pengirim'),
                 "status" => $this->request->getPost('status')
             ]);
             return redirect('admin/surkom');
