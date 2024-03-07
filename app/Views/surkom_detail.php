@@ -4,10 +4,12 @@
 <div align="center">
     <h2 class="h2"><?= $surkom['title'] ?></h2>
 </div>
-<hr color="black", size="5px">
+<hr color="black" , size="5px">
 <div align="center"><b>SURAT REKOMENDASI</b></div>
-<div align="center"><h>No:</h><?= $surkom['no'] ?></div>
-
+<div align="center">
+    <h>No:</h><?= $surkom['no'] ?>
+</div>
+<p>------------------------------------------------------------------------------------------------------------------</p>
 <h>Yamg bertanda tangan di bawah ini</h>
 <div>
     <h>Nama : </h><?= $surkom['nama1'] ?>
@@ -50,8 +52,10 @@
 <br>
 <div><?= $surkom['content'] ?></div>
 <br>
-<div style="position: relative; top: 50x; left: 350px"><?= $surkom['tanggal'] ?></div>
+<div style="position: relative; top: 50x; left: 490px"><?= $surkom['tanggal'] ?></div>
 <p></p><br><br>
-<div style="position: relative; top: 50x; left: 350px"><H>(</H><?= $surkom['nama_pengirim'] ?><h>)</h></div>
+<div style="position: relative; top: 50x; left: 490px">
+    <H>(</H><?= $surkom['nama_pengirim'] ?><h>)</h>
+</div>
 
 <?= $this->endSection() ?>

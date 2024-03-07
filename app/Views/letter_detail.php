@@ -6,7 +6,7 @@
 </div>
 <div align="center"><?= $letter['alamat'] ?></div>
 <div>
-    <hr color="black", size="5px">
+    <hr color="black" , size="5px">
     <p></p><br>
     <h>No : </h><?= $letter['no'] ?>
 </div>
@@ -19,10 +19,10 @@
 <br>
 <div><?= $letter['content'] ?></div>
 <p></p><br>
-<div style="position: relative; top: 50x; left: 350px"><?= $letter['tanggal'] ?></div>
+<div style="position: relative; top: 50x; left: 490px"><?= $letter['tanggal'] ?></div>
 <p></p><br><br>
-<div style="position: relative; top: 50x; left: 350px"><?= $letter['pengirim'] ?></div>
-<div style="position: relative; top: 50x; left: 350px">
+<div style="position: relative; top: 50x; left: 490px"><?= $letter['pengirim'] ?></div>
+<div style="position: relative; top: 50x; left: 490px">
     <h>NIP. </h><?= $letter['nip'] ?>
 </div>
 
