@@ -4,13 +4,13 @@
 <div align="center">
     <h2 class="h2"><?= $surkom['title'] ?></h2>
 </div>
-<hr color="black" , size="5px">
+<hr color="BLACK" , size="5px">
 <div align="center"><b>SURAT REKOMENDASI</b></div>
 <div align="center">
     <h>No:</h><?= $surkom['no'] ?>
 </div>
 <p>------------------------------------------------------------------------------------------------------------------</p>
-<h>Yamg bertanda tangan di bawah ini</h>
+<h>Yang bertanda tangan di bawah ini</h>
 <div>
     <h>Nama : </h><?= $surkom['nama1'] ?>
 </div>
